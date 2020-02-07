@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+pandas = "*"
+sklearn = "*"
+psycopg2-binary = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+ipywidgets = ">=7.2"
+mord = "*"
+xgboost = "*"
+yellowbrick = "*"
+lifelines = "*"
+nbdime = "*"
+flake8 = "*"
+snowflake-connector-python = "*"
+jupyterlab = "*"
+scipy = "*"
+rise = "*"
+
+[requires]
+python_version = "3.7"
