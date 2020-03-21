@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+rise = "*"
 
 [packages]
 jupyter = "*"
@@ -11,14 +12,12 @@ pandas = "*"
 sklearn = "*"
 matplotlib = "*"
 seaborn = "*"
-plotly = "*"
 ipywidgets = ">=7.2"
 nbdime = "*"
 flake8 = "*"
 snowflake-connector-python = "*"
 jupyterlab = "*"
 scipy = "*"
-rise = "*"
 
 [requires]
 python_version = "3.7"
