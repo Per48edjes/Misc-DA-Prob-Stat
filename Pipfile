@@ -5,19 +5,20 @@ verify_ssl = true
 
 [dev-packages]
 rise = "*"
+nbdime = "*"
+flake8 = "*"
 
 [packages]
 jupyter = "*"
+jupyterlab = "*"
 pandas = "*"
-sklearn = "*"
+numpy = "*"
+scipy = "*"
 matplotlib = "*"
 seaborn = "*"
+sklearn = "*"
 ipywidgets = ">=7.2"
-nbdime = "*"
-flake8 = "*"
 snowflake-connector-python = "*"
-jupyterlab = "*"
-scipy = "*"
 
 [requires]
 python_version = "3.7"
