@@ -5,8 +5,9 @@ verify_ssl = true
 
 [dev-packages]
 rise = "*"
-nbdime = "*"
 flake8 = "*"
+jupyter-tabnine = "*"
+nbdime = "*"
 
 [packages]
 jupyter = "*"
@@ -19,6 +20,7 @@ seaborn = "*"
 sklearn = "*"
 ipywidgets = ">=7.2"
 snowflake-connector-python = "*"
+keyring = "*"
 
 [requires]
 python_version = "3.7"
