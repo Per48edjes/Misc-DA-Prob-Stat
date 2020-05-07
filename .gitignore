@@ -1,4 +1,12 @@
+# Dotfiles
 .ipynb_checkpoints/
 .DS_Store
-misc/
+
+# Ignore pycache from custom module
+custom/__pycache__/
+
+# Folder to house miscellaneous dev work
+Misc/
+
+# Solutions always suffixed with 'solution'
 **/*solution.ipynb
