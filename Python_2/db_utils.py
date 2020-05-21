@@ -58,10 +58,10 @@ def get_data(input_source, input_type, conn):
         df = pd.read(input_source, conn)
 
     if input_type == 'file':
-        # Open the query.sql file
+        # Open the input_source file
         with open(input_source, 'r') as q:
 
-            # Save contents of query.sql as string
+            # Save contents of input_source as string
             query_str = q.read()
 
             # Use the read_sql method to get the data from Snowflake into a Pandas dataframe

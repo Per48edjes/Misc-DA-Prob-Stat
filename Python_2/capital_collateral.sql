@@ -30,6 +30,7 @@ with
     from
       analytics.legacy.bi_customs_shipments
     where
+    -- Don't edit this
         ci_keyed_date between '2019-01-01' and '2019-12-31'
     and ci_value is not null
     group by
@@ -88,7 +89,7 @@ with
     select *
     from
       analytics.legacy.dates
-    where date_day between '2019-01-01' and '2020-05-01'
+    where date_day between '2019-01-01' and '2019-12-31'
   ),
 
   prep_in_transit as (
