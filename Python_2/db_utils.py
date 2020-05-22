@@ -55,7 +55,7 @@ def get_data(input_source, input_type, conn):
 
     if input_type == 'text':
         # Use the read_sql method to get the data from Snowflake into a Pandas dataframe
-        df = pd.read(input_source, conn)
+        df = pd.read_sql(input_source, conn)
 
     if input_type == 'file':
         # Open the input_source file
