@@ -1,0 +1,118 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+
+
+# TEXT / FONT
+text.color : white
+font.family  : sans-serif
+font.style   : normal
+font.variant : normal
+font.weight  : normal
+font.stretch : normal
+font.size    : 12.0
+
+#font.serif      : DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
+font.sans-serif :  Verdana # DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+#font.cursive    : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, cursive
+#font.fantasy    : Comic Neue, Comic Sans MS, Chicago, Charcoal, ImpactWestern, Humor Sans, xkcd, fantasy
+#font.monospace  : DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+# AXES
+axes.titlesize : 18
+axes.titleweight : bold
+axes.labelsize : 14
+axes.labelcolor : white
+axes.linewidth : 1
+axes.spines.top : False
+axes.spines.right : False
+axes.spines.bottom : True
+axes.spines.left : True
+axes.facecolor: 24313e
+axes.xmargin   : .01   ## x margin.  See `axes.Axes.margins`
+axes.ymargin   : .01
+axes.edgecolor     : white   ## axes edge color
+axes.axisbelow: true
+
+
+# DATES
+date.autoformatter.year        : %Y
+date.autoformatter.month       : %b-%y
+date.autoformatter.day         : %d/%m/%Y
+
+
+# TICKS
+xtick.top           : False   ## draw ticks on the top side
+xtick.bottom        : True    ## draw ticks on the bottom side
+xtick.labeltop      : False   ## draw label on the top
+xtick.labelbottom   : True    ## draw label on the bottom
+xtick.major.width   : 0.5     ## major tick width in points
+xtick.minor.width   : 0.3     ## minor tick width in points
+xtick.major.pad     : 3.5     ## distance to major tick label in points
+xtick.minor.pad     : 3.0     ## distance to the minor tick label in points
+xtick.color         : white   ## color of the tick labels
+xtick.labelsize     : medium  ## fontsize of the tick labels
+xtick.direction     : in     ## direction: {in, out, inout}
+xtick.minor.visible : False   ## visibility of minor ticks on x-axis
+xtick.major.top     : False    ## draw x axis top major ticks
+xtick.major.bottom  : True    ## draw x axis bottom major ticks
+xtick.minor.top     : False    ## draw x axis top minor ticks
+xtick.minor.bottom  : False    ## draw x axis bottom minor ticks
+xtick.alignment     : center  ## alignment of xticks
+
+ytick.right           : False   ## draw ticks on the top side
+ytick.left        : True    ## draw ticks on the bottom sid
+ytick.labelright   : True    ## draw label on the bottom
+ytick.major.width   : 0.5     ## major tick width in points
+ytick.minor.width   : 0.3     ## minor tick width in points
+ytick.major.pad     : 3.5     ## distance to major tick label in points
+ytick.minor.pad     : 3.0     ## distance to the minor tick label in points
+ytick.color         : white   ## color of the tick labels
+ytick.labelsize     : medium  ## fontsize of the tick labels
+ytick.direction     : in     ## direction: {in, out, inout}
+ytick.minor.visible : False   ## visibility of minor ticks on x-axis
+ytick.major.right     : False    ## draw x axis top major ticks
+ytick.major.left  : True    ## draw x axis bottom major ticks
+ytick.minor.right     : False    ## draw x axis top minor ticks
+ytick.alignment     : center  ## alignment of xticks
+
+# GRID
+axes.grid : False
+grid.linestyle : -
+grid.linewidth : 0.5
+
+# LINES
+axes.prop_cycle : cycler('color', [ '47dabe', 'fb5858', '566ae5', 'e8ecf1', 'c4d3e7', '1f2c38']) #hex colours
+lines.linewidth : 1.5
+lines.markeredgewidth : 0.0
+
+
+# SCATTER PLOT
+scatter.marker : .
+
+
+# FIGURE OUTPUT
+figure.figsize  : 6, 4
+figure.dpi : 150
+savefig.dpi : 200
+figure.frameon     : False      ## enable figure frame
+
+## The figure subplot parameters.  All dimensions are a fraction of the figure width and height.
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.subplot.wspace : 0.2    ## the amount of width reserved for space between subplots,
+                                ## expressed as a fraction of the average axis width
+figure.subplot.hspace : 0.2    ## the amount of height reserved for space between subplots,
+                                ## expressed as a fraction of the average axis height
+
+## Figure layout
+figure.autolayout : False  ## When True, automatically adjust subplot
+                            ## parameters to make the plot fit the figure
+                            ## using `tight_layout`
+figure.constrained_layout.use : False  ## When True, automatically make plot
+                                        ## elements fit on the figure. (Not
+                                        ## compatible with `autolayout`, above).
+figure.constrained_layout.h_pad  : 0.04167  ## Padding around axes objects. Float representing
+figure.constrained_layout.w_pad  : 0.04167  ## inches. Default is 3./72. inches (3 pts)
+figure.constrained_layout.hspace : 0.02     ## Space between subplot groups. Float representing
+figure.constrained_layout.wspace : 0.02     ## a fraction of the subplot widths being separated.
