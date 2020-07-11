@@ -36,6 +36,7 @@ def validate_connection(conn, cur):
         cur.close()
     conn.close()
 
+
 def get_data(input_source, input_type, conn):
     """
     Function to get data from a .sql file or SQL query string input
@@ -52,13 +53,13 @@ def get_data(input_source, input_type, conn):
         Connector object returned by get_connection() function
     """
 
-    if input_type == 'text':
+    if input_type == "text":
         # Use the read_sql method to get the data from Snowflake into a Pandas dataframe
         df = pd.read_sql(input_source, conn)
 
-    if input_type == 'file':
+    if input_type == "file":
         # Open the input_source file
-        with open(input_source, 'r') as q:
+        with open(input_source, "r") as q:
 
             # Save contents of input_source as string
             query_str = q.read()
@@ -70,6 +71,7 @@ def get_data(input_source, input_type, conn):
     df.columns = map(str.lower, df.columns)
 
     return df
+
 
 if __name__ == "__main__":
     conn, cur = get_connection()
