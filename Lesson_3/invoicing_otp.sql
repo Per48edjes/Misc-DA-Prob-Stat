@@ -16,4 +16,3 @@ where
   and financial_invoices.voided_ts is null
   and financial_invoices.issued_ts is not null
   and financial_invoices.issued_ts>='2020-06-01'
-  and days_to_share<=60
