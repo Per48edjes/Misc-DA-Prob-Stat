@@ -7,7 +7,7 @@ This monorepo houses all of the in- and out-of-class materials for the internal 
 
 As of writing, we currently have the following lesson varieties:
 
-|   | Lesson Type  | Description.                        |
+|   | Lesson Type  | Description                        |
 |---|--------------|-------------------------------------|
 | 🐍  | Python     | Applied practice using Python for data analysis |
 | 📚  | Prob/Stat  | Applied probability/statistics theory |
@@ -35,4 +35,10 @@ The instructions herein assume you already have `git` + `pipenv` installed and t
 
 ---
 
-**Contributors**: NateR, ShreyasK, NiharikaJ, DavidS, RaviD, ...and you! Just let us know what you'd like to work on and lead us through.
+## Acknowledgments
+
+These lessons only exist because of the hard work and dedication of our contributors. If you would like to participate (whether that's leading a session, contributing code, sharing an idea, etc.), please get in touch!
+
+**Contributors**: NateR, ShreyasK, NiharikaJ, DavidS, RaviD, ...and \[potentially\] you!
+
+
