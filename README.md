@@ -35,7 +35,7 @@ The instructions herein assume you already have `git` + `pipenv` installed and t
 
 ---
 
-## Acknowledgments
+## Acknowledgments 🙏🏽
 
 These lessons only exist because of the hard work and dedication of our contributors. If you would like to participate (whether that's leading a session, contributing code, sharing an idea, etc.), please get in touch!
 
