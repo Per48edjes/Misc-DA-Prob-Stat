@@ -15,6 +15,7 @@ def get_connection():
     conn = snowflake.connector.connect(
         user=user,
         account=account,
+        database="ANALYTICS",
         warehouse="REPORTING_WH",
         role="DATA_ANALYTICS_ROLE",
         authenticator=authenticator,
