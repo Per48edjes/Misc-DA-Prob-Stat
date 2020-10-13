@@ -39,6 +39,6 @@ The instructions herein assume you already have `git` + `pipenv` installed and t
 
 These lessons only exist because of the hard work and dedication of our contributors. If you would like to participate (whether that's leading a session, contributing code, sharing an idea, etc.), please get in touch!
 
-**Contributors**: NateR, ShreyasK, NiharikaJ, DavidS, RaviD, ...and \[potentially\] you!
+**Contributors**: NateR, ShreyasK, NiharikaJ, DavidS, RaviD, TylerH, ...and \[potentially\] you!
 
 
