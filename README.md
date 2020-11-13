@@ -1,5 +1,5 @@
 # 📚🐍 DA Probability & Statistics Learning Series 
-[\#da_learn_develop](https://flexport.slack.com/archives/G0119CY6W56) ☞ **@Ravi2**
+[\#da_learn_develop](https://flexport.slack.com/archives/C0119CY6W56) ☞ **@Ravi2**
 
 ## Overview 👨‍🏫
 
@@ -28,7 +28,7 @@ The instructions herein assume you already have `git` + `pipenv` installed and t
 
 ## Where to Find Things 🔍
 
-- Important Announcements: See the _pinned posts_ in [\#da_learn_develop](https://flexport.slack.com/archives/G0119CY6W56)
+- Important Announcements: See the _pinned posts_ in [\#da_learn_develop](https://flexport.slack.com/archives/C0119CY6W56)
 - [Syllabus](https://docs.google.com/document/d/1s7jkXkjIAX2cGI8sKCURmSr4Q0heg1cpv7J479Nfkf4/edit#heading=h.njgornklx0x7)
 - [Recordings](https://drive.google.com/drive/folders/1ebuHd3aKd1VUDScSGeVzB9rxe2Q-yldF?usp=sharing)
 - Upcoming Sessions: See your GCal
