@@ -28,6 +28,7 @@ ipywidgets = ">=7.2"
 snowflake-connector-python = "*"
 keyring = "*"
 statsmodels = "*"
+lifelines = "*"
 
 [requires]
 python_version = "3.7"
