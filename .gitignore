@@ -1,6 +1,7 @@
 # Dotfiles
 .ipynb_checkpoints/
 .DS_Store
+*.swp
 
 # Ignore pycache from custom module
 custom/__pycache__/
@@ -10,3 +11,11 @@ Misc/
 
 # Solutions always suffixed with 'solution'
 **/*solution.ipynb
+
+# Latex extensions
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.out

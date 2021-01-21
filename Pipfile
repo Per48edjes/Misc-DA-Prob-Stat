@@ -11,7 +11,6 @@ verify_ssl = false
 [dev-packages]
 rise = "*"
 flake8 = "*"
-jupyter-tabnine = "*"
 nbdime = "*"
 
 [packages]
@@ -26,7 +25,6 @@ seaborn = "*"
 sklearn = "*"
 ipywidgets = ">=7.2"
 snowflake-connector-python = "*"
-keyring = "*"
 statsmodels = "*"
 lifelines = "*"
 
