@@ -17,7 +17,7 @@ def get_connection():
         account=account,
         database="ANALYTICS",
         warehouse="REPORTING_WH",
-        role="DATA_ANALYTICS_ROLE",
+        role="ANALYST_ROLE",
         authenticator=authenticator,
     )
     cur = conn.cursor()
